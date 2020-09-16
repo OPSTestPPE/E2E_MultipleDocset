@@ -27,7 +27,46 @@
       },
       "build_entry_point": "docs",
       "template_folder": "_themes"
-    }
+    },
+	{
+      "docset_name": "e2e_docset_vdocs",
+      "build_source_folder": "vdocs",
+      "build_output_subfolder": "e2e_docset_vdocs",
+      "locale": "en-us",
+      "monikers": [],
+      "moniker_ranges": ["vs-2015", ">= vs-2017"],
+      "xref_query_tags": [
+        "/dotnet",
+        "/uwp/api"
+      ],
+      "open_to_public_contributors": true,
+      "type_mapping": {
+        "Conceptual": "Content",
+        "ManagedReference": "Content",
+        "RestApi": "Content",
+        "LandingData": "Content",
+        "ContextObject": "Toc",
+        "APIConnector": "Content"
+      },
+      "template_folder": "_themes"
+    },
+    {
+      "docset_name": "e2e_docset_mac",
+      "build_source_folder": "mac",
+      "build_output_subfolder": "e2e_docset_mac",
+      "locale": "en-us",
+      "monikers": [],
+      "moniker_ranges": ["vsmac-2017", "vsmac-2019"],
+      "open_to_public_contributors": true,
+      "type_mapping": {
+        "Conceptual": "Content",
+        "ManagedReference": "Content",
+        "RestApi": "Content",
+        "ContextObject": "Toc"
+      },
+      "build_entry_point": "docs",
+      "template_folder": "_themes"
+    },
   ],
   "notification_subscribers": [],
   "sync_notification_subscribers": [],

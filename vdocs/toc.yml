@@ -1,0 +1,12 @@
+- name: Visual Studio IDE documentation
+  href: ide/index.yml
+  pdf_name: Visual Studio documentation
+- name: Test >>
+  displayName: Unit testing
+  href: test/improve-code-quality.md
+- name: Develop
+  items:
+  - name: Work with...
+    items:
+    - name: Office and SharePoint apps >>
+      href: vsto/office-and-sharepoint-development-in-visual-studio.md
