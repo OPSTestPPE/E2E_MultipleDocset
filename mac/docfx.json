@@ -16,7 +16,8 @@
           "LICENSE-CODE",
           "ThirdPartyNotices"
         ]
-      },{
+      },
+      {
         "group": "vsmac-2019",
         "src": "./",
         "files": [
@@ -31,8 +32,25 @@
           "LICENSE",
           "LICENSE-CODE",
           "ThirdPartyNotices",
-          "non-version.md"
+          "non-version/**"
         ]
+      },
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "_themes/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
+        ],
+        "src": "non-version",
+        "dest": "non-v"
       }
     ],
     "resource": [
@@ -49,7 +67,8 @@
           "**/obj/**",
           "**/includes/**"
         ]
-      },{
+      },
+      {
         "group": "vsmac-2019",
         "src": "./",
         "files": [
@@ -62,8 +81,20 @@
           "2017/**",
           "**/obj/**",
           "**/includes/**",
-          "non-version.md"
+          "non-version/**"
         ]
+      },
+      {
+        "files": [
+          "**/*.png",
+          "**/*.jpg"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**"
+        ],
+        "src": "non-version",
+        "dest": "non-v"
       }
     ],
     "overwrite": [],

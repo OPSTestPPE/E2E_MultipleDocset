@@ -4,8 +4,3 @@
   href: ide-tour.md
 - name: Installation
   href: installation.md
-  items:
-  - name: Uninstall
-    href: /visualstudio/mac/uninstall
-- name: Troubleshooting
-  href: /visualstudio/mac/report-a-problem
