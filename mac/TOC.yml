@@ -4,29 +4,8 @@
   items: 
     - name: IDE Tour
       href: ide-tour.md
-    - name: Visual Studio for Mac for Windows Users
-      href: vsmac-for-windows-users.md
-    - name: Integrated Terminal
-      href: integrated-terminal.md
 - name: Installation
   items: 
     - name: Installing Visual Studio 2019 for Mac
       href: installation.md
-- name: Workloads
-  items: 
-    - name: Available Workloads
-      href: workloads.md
-    - name: ASP.NET Core
-      items: 
-        - name: Getting Started with ASP.NET Core
-          href: asp-net-core.md
-    - name: Unity Game Development
-      items: 
-        - name: Setup
-          href: setup-vsmac-tools-unity.md
-        - name: Using Unity Tools
-          href: using-vsmac-tools-unity.md
-    - name: Mobile apps with Xamarin
-      href: /visualstudio/mac/xamarin
-- name: Visual Studio for non version
-  href: non-version.md
+

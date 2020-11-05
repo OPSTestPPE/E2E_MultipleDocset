@@ -109,7 +109,7 @@
         "meganbradley",
         "Craig Dunn"
       ],
-      "breadcrumb_path": "~/_breadcrumb/toc.yml",
+      "breadcrumb_path": "~/breadcrumb/toc.yml",
       "extendBreadcrumb": true,
       "manager": "dominicn",
       "titleSuffix": "Visual Studio for Mac",
@@ -123,8 +123,8 @@
     },
     "fileMetadata": {
       "breadcrumb_path": {
-        "2017/**/*.md": "/visualstudio/mac/_breadcrumb/toc.json",
-        "2017/**/*.yml": "/visualstudio/mac/_breadcrumb/toc.json"
+        "2017/**/*.md": "/visualstudio/mac/breadcrumb/toc.json",
+        "2017/**/*.yml": "/visualstudio/mac/breadcrumb/toc.json"
       },
       "titleSuffix": {
         "2017/**/*.md": "Visual Studio 2017 for Mac",
