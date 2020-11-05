@@ -38,7 +38,7 @@ For working with iOS in Visual Studio you need the following pieces:
 [!INCLUDE[vs2017banner](includes/vs2017banner.md)]
 
 ## Renaming Implemented or Overridden Members
- When you **Rename** a member that either implements/overrides or is implemented/overridden by members in other types, [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] displays a dialog box that says the rename operation will cause cascading updates. If you click **Continue**, the refactoring engine recursively finds and renames all members in base and derived types that have implements/overrides relationships with the member being renamed.
+ When you **Rename** a member that either implements/overrides or is implemented/overridden by members in other types, [!INCLUDE[vsprvs](includes/vsprvs-md.md)] displays a dialog box that says the rename operation will cause cascading updates. If you click **Continue**, the refactoring engine recursively finds and renames all members in base and derived types that have implements/overrides relationships with the member being renamed.
 
  The following code example contains members with implements/overrides relationships.
 
